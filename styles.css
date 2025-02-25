@@ -1,6 +1,15 @@
 :not(:defined) > * {
   display: none;
 }
+#all{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+   transform: translate(-0%,900%);
+}
 
 
 body {
